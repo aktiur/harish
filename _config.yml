@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Harish Alagappa's brilliant portfolio. Every text that he's written and published
   is referenced here, and linked to if it was published on the net. In addition, 
   exclusive content is available.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/harish" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: chaosverse
 github_username:  aktiur
