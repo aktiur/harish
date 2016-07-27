@@ -19,3 +19,47 @@ github_username:  aktiur
 
 # Build settings
 markdown: kramdown
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://aktiur.github.io/harish/'
+  relativeLinks: 'http://aktiur.github.io/harish/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "History"
+              value: "history"
+            - name: "Climate Change"
+              value: "climate"
+            - name: "Energy"
+              value: "energy"
+            - name: "Sports"
+              value: "sports"
+            - name: "Miscellaneous"
+              value: "miscellaneous"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
